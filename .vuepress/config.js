@@ -52,9 +52,8 @@ module.exports = {
             "icon": "reco-github"
           },
           {
-            "text": "GitHub",
-            "link": "https://github.com/itmahy",
-            "icon": "reco-github"
+            "text": "mahy_yel@163.com",
+            "link": "/",
           }
         ]
       }
@@ -79,6 +78,12 @@ module.exports = {
         "desc": "为了自尊的生存和自我的证明",
         "email": "mahy_yel@163.com",
         "link": "https://blog.csdn.net/news_out?spm=1000.2115.3001.5343"
+      },
+      {
+        "title": "码云",
+        "desc": "为了那些逝去的人们",
+        "email": "mahy_yel@163.com",
+        "link": "https://gitee.com/mahy_yel/"
       },
       
     ],

@@ -3,6 +3,7 @@ title: GIT笔记
 author: mahy
 date: 2023-05-31
 sidebar: 'auto'
+email: mahy_yel@163.com
 categories:
  - 后端
 tags:
