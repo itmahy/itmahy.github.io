@@ -50,6 +50,11 @@ module.exports = {
             "text": "GitHub",
             "link": "https://github.com/itmahy",
             "icon": "reco-github"
+          },
+          {
+            "text": "GitHub",
+            "link": "https://github.com/itmahy",
+            "icon": "reco-github"
           }
         ]
       }

@@ -9,15 +9,18 @@ tags:
  - git
 publish: true
 ---
-
 :::tip
  GIT笔记，里面包含了一些命令
 :::
 <!-- more -->
 
-## git命令
 
-#### 1. 设置用户签名以及查看git版本
+
+[[toc]]
+
+# git命令
+
+## 设置用户签名以及查看git版本
 
 - git config --global user.name [username]
 
@@ -25,7 +28,7 @@ publish: true
 
 - git config --global --list 
 
-  查看本地全局用户配置信息
+  ###### 查看本地全局用户配置信息
 
 - git config --list 
 
@@ -39,7 +42,7 @@ publish: true
 
   查看版本
 
-#### 1. 初始化仓库
+### 1. 初始化仓库
 
 - git init 
 
@@ -47,7 +50,7 @@ publish: true
 
   可以通过初始化指定的目录
 
-#### 2. 添加到缓存区
+### 2. 添加到缓存区
 
 - git add .
 
@@ -61,12 +64,12 @@ publish: true
 
   添加目录到缓存区，包括子目录
 
-#### 3. 查看状态
+### 3. 查看状态
 
 - git status  输出详细结果
 - git status -s   输出简短结果 
 
-#### 4. 删除操作
+### 4. 删除操作
 
 - git rm 
 
@@ -88,7 +91,7 @@ publish: true
 
   将不在暂存区的文件撤销更改，意思是撤销掉你的上次操作，恢复文件
 
-#### 5.提交到本地库
+### 5.提交到本地库
 
 - git commit -m "提交说明信息"
 
@@ -108,7 +111,7 @@ publish: true
 
   修改文件之后，不需要`git add .`，直接提交到本地库，不会进入vim编辑提交信息
 
-#### 6.查看历史记录
+### 6.查看历史记录
 
 - git reflog
 
@@ -144,13 +147,13 @@ publish: true
 
   查找指定用户的提交日志
 
-#### 7.版本切换，穿梭
+### 7.版本切换，穿梭
 
 - git reset --hard [版本号]
 
 ![An image](./assets/image-20230526171510533.png)
 
-#### 8.分支操作
+### 8.分支操作
 
 - git branch [分支名]
 
@@ -226,7 +229,7 @@ publish: true
 
   7. 合并完成。
 
-#### 9. 远程操作
+### 9. 远程操作
 
 - 别名
 
@@ -266,13 +269,13 @@ publish: true
 
   命令用于从远程获取代码库。这个需要单独搜索
 
-#### 10. 生成连接RSA密钥
+### 10. 生成连接RSA密钥
 
 - ssh-keygen -t rsa -C "email"
 
   生成的密钥存放在`C:\Users\用户名称\.ssh`目录下
 
-#### 11. git 中一些选项解释
+### 11. git 中一些选项解释
 
 - **-d**  --delete：删除
 
@@ -288,7 +291,7 @@ publish: true
 
 - **-a**  --all：所有
 
-#### 12. 比较文件不同
+### 12. 比较文件不同
 
 - git diff [文件名称] 
 
@@ -306,7 +309,7 @@ publish: true
 
   显示摘要而非整个 diff
 
-#### 13. 移动或者重命名文件
+### 13. 移动或者重命名文件
 
 - git mv [旧文件名称] [新文件名称]
 
@@ -314,9 +317,12 @@ publish: true
 
   如果新文件名已经存在，但还是要重命名它，可以使用 **-f** 参数
 
-#### 14. 标签
+### 14. 标签
 
 - git tag -a [标签名eg: v1.0]
 - git tag 
 - git show [标签名称] 
 
+### 15. 提交规范
+
+![An image](./assets/image-20230531110157624.png)

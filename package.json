@@ -7,7 +7,9 @@
     "build": "vuepress build ."
   },
   "devDependencies": {
+    "vitepress-plugin-autobar": "^1.0.8",
     "vuepress": "1.9.7",
+    "vuepress-plugin-side-anchor": "^1.0.6",
     "vuepress-theme-reco": "1.6.17"
   },
   "description": "诺克萨斯，昂扬不灭！",
