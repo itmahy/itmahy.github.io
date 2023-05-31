@@ -1,0 +1,19 @@
+{
+  "name": "温水煮蛙",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "1.9.7",
+    "vuepress-theme-reco": "1.6.17"
+  },
+  "description": "诺克萨斯，昂扬不灭！",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
+    "vuepress-plugin-ribbon": "^1.1.6"
+  }
+}
