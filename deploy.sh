@@ -13,7 +13,8 @@ git init
 git add .
 git commit -m '部署博客'
 
-git remote add blog_mahy https://gitee.com/mahy_yel/mahy_yel.git
+# git remote add blog_mahy https://gitee.com/mahy_yel/mahy_yel.git
+git remote add blog_mahy https://github.com/itmahy/mahy_yel.github.io.git
 git checkout -b deploy
 git push -f blog_mahy deploy
 # git push
