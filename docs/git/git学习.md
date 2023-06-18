@@ -78,6 +78,10 @@ publish: true
 - git cherry -v
 
   查看已提交但是未推送的说明
+  
+- git log master ^origin/master
+
+  查看到未传送到远程代码库的提交详情
 
 ### 4. 删除操作
 
