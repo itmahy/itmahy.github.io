@@ -29,7 +29,7 @@ publish: true
 
 - git config --global --list 
 
-  ###### 查看本地全局用户配置信息
+  查看本地全局用户配置信息
 
 - git config --list 
 
@@ -42,6 +42,10 @@ publish: true
 - git --version 
 
   查看版本
+  
+- ssh-keygen -t rsa -C "mahy_yel@163.com" 
+
+  生成密钥
 
 ### 1. 初始化仓库
 
