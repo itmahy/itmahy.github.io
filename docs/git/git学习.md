@@ -4,9 +4,9 @@ author: mahy
 date: 2023-05-31
 sidebar: 'auto'
 email: mahy_yel@163.com
-categories:
+categories: 
  - 后端
-tags:
+tags: 
  - git
 publish: true
 ---
@@ -181,6 +181,10 @@ publish: true
 - git checkout -b [分支名]
 
   新建并切换到新分支
+
+- git checkout -b [分支名]  [远程连接别名]/[远程分支名]
+
+  创建本地分支并切换到此分支，并且拉取远程分支的代码
 
 - git branch -d [分支名]
 

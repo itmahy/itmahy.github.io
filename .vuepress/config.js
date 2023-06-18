@@ -58,8 +58,24 @@ module.exports = {
         ]
       }
     ],
+	"sidebarDepth": 1,
     "sidebar": {
-      
+		'/docs/': [
+			{
+		          title: 'Git笔记',
+		          collapsable: true,
+		          children: [
+		            { title: 'Git命令', path: '/docs/git/git学习' }
+		          ]
+	        },
+			{
+	          title: 'Docker笔记',
+	          collapsable: true,
+	          children: [
+	            { title: 'Docker安装', path: '/docs/docker/Docker安装' }
+	          ]
+	        }
+		]
     },
     "type": "blog",
     // "blogConfig": {
