@@ -72,7 +72,12 @@ publish: true
 ### 3. 查看状态
 
 - git status  输出详细结果
+
 - git status -s   输出简短结果 
+
+- git cherry -v
+
+  查看已提交但是未推送的说明
 
 ### 4. 删除操作
 
