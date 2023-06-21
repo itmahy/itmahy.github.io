@@ -1,5 +1,5 @@
 ---
-title: Docker安装
+title: （一）Docker-安装
 author: mahy
 date: 2023-06-18
 sidebar: 'auto'
@@ -12,7 +12,7 @@ publish: true
 ---
 
 :::tip
-  Docker安装
+  Docker安装的一些前置工作和安装命令
 :::
 <!-- more -->
 

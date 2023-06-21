@@ -72,7 +72,9 @@ module.exports = {
 	          title: 'Docker笔记',
 	          collapsable: true,
 	          children: [
-	            { title: 'Docker安装', path: '/docs/docker/Docker安装' }
+	            { title: '（一）Docker-安装', path: '/docs/docker/（一）Docker-安装' },
+	            { title: '（二）Docker-帮助启动类命令', path: '/docs/docker/（二）Docker-帮助启动类命令' },
+	            { title: '（三）Docker-镜像命令', path: '/docs/docker/（三）Docker-镜像命令' }
 	          ]
 	        }
 		]
